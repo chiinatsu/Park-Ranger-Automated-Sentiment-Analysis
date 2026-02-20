@@ -50,7 +50,7 @@ password123
 1. Open the **XAMPP Control Panel** and start **Apache** and **MySQL**.
 2. Navigate to `http://localhost/phpmyadmin/`.
 3. Create a new database named `park_ranger_system`.
-4. [cite_start]Select the database, go to the **Import** tab, and upload the `database.sql` file from the root directory.
+4. [cite_start]Select the database, go to the **Import** tab, and upload the `database.sql` file from the root directory. (you may also upload `dummydata.sql` for the main functions of the website)
 5. Run the following SQL command in the **SQL** tab to create a test user:
    ```sql
    INSERT INTO `USER` (username, password_hash) VALUES ('admin', 'password123');
